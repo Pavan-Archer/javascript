@@ -7,4 +7,10 @@ const obj = {
 
 const newObj = Object.fromEntries(Object.entries(obj).filter(([_, val])=> val!= null));
 
+// const newObj = Object.entries(obj)
+
 console.log(newObj)
+
+// const nObj = Object.fromEntries(newObj)
+
+// console.log(nObj)
